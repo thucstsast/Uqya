@@ -1,0 +1,13 @@
+# Created with the help of https://www.gitignore.io/api/django
+
+# From gitignore.io
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+# Python virtualenv folder
+env/
