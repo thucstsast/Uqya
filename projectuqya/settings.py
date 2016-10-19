@@ -54,7 +54,7 @@ ROOT_URLCONF = 'projectuqya.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['qaplatform/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

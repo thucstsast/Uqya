@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js"></script>
+    <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.4/css/bootstrap.css" rel="stylesheet"/>
+    <script>
+    $(function(){
+      $("#button_test").click(function(){
+        alert("Welcome!");
+      });
+    });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>{{ title }}</h1>
+      <p>{{ content }}</p>
+      <a class="btn btn-primary" id="button_test" href="#" role="button">test</a>
+    </div>
+  </body>
+</html>
